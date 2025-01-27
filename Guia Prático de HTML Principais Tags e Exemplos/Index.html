@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principais Tags do HTML com Exemplos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Meta descrição (SEO) -->
+    <meta name="description" content="Uma explicação detalhada com exemplos das principais tags do HTML." />
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Principais Tags do HTML com Exemplos</h1>
+      <p>
+        Aqui você encontrará explicações e exemplos práticos para as principais tags do HTML, organizadas por categoria.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Estruturais</h2>
+        <p>Essas tags definem a estrutura principal de um documento HTML:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;!DOCTYPE&gt;</code>:</strong> Declara o tipo de documento como HTML5.
+            <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;html&gt;</code>:</strong> A tag raiz que envolve todo o documento HTML.
+            <pre><code>&lt;html lang="pt-BR"&gt;...&lt;/html&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;head&gt;</code>:</strong> Contém metadados da página.
+            <pre><code>
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Meu Site&lt;/title&gt;
+&lt;/head&gt;
+            </code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;body&gt;</code>:</strong> Abriga o conteúdo visível da página.
+            <pre><code>
+&lt;body&gt;
+  &lt;h1&gt;Bem-vindo ao meu site!&lt;/h1&gt;
+&lt;/body&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Cabeçalhos e Títulos</h2>
+        <p>Usados para destacar hierarquias e organizar o conteúdo:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;h1&gt; a &lt;h6&gt;</code>:</strong> Representam níveis de título.
+            <pre><code>
+&lt;h1&gt;Título Principal&lt;/h1&gt;
+&lt;h2&gt;Subtítulo Importante&lt;/h2&gt;
+&lt;h3&gt;Subseção&lt;/h3&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Texto e Formatação</h2>
+        <p>Essas tags são usadas para adicionar textos e aplicar estilos básicos:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;p&gt;</code>:</strong> Define um parágrafo.
+            <pre><code>&lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;strong&gt;</code>:</strong> Destaca texto com ênfase forte (negrito).
+            <pre><code>&lt;strong&gt;Texto destacado em negrito.&lt;/strong&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;em&gt;</code>:</strong> Aplica ênfase ao texto (itálico).
+            <pre><code>&lt;em&gt;Texto em itálico para ênfase.&lt;/em&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;br&gt;</code>:</strong> Insere uma quebra de linha.
+            <pre><code>Texto na linha 1.&lt;br&gt;Texto na linha 2.</code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Listas</h2>
+        <p>Permitem organizar informações em formato de lista:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;ul&gt;</code>:</strong> Lista não ordenada.
+            <pre><code>
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+            </code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;ol&gt;</code>:</strong> Lista ordenada.
+            <pre><code>
+&lt;ol&gt;
+  &lt;li&gt;Primeiro item&lt;/li&gt;
+  &lt;li&gt;Segundo item&lt;/li&gt;
+&lt;/ol&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Imagens e Mídia</h2>
+        <p>Tags utilizadas para exibir conteúdo visual e de mídia:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;img&gt;</code>:</strong> Exibe imagens.
+            <pre><code>&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;video&gt;</code>:</strong> Insere vídeos.
+            <pre><code>
+&lt;video src="video.mp4" controls&gt;Seu navegador não suporta vídeo.&lt;/video&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Links e Navegação</h2>
+        <p>Essas tags criam links para outras páginas ou seções:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;a&gt;</code>:</strong> Define um link.
+            <pre><code>&lt;a href="https://www.exemplo.com"&gt;Visite o site&lt;/a&gt;</code></pre>
+          </li>
+          <li>
+            <strong><code>&lt;nav&gt;</code>:</strong> Representa uma área de navegação.
+            <pre><code>
+&lt;nav&gt;
+  &lt;a href="#secao1"&gt;Seção 1&lt;/a&gt;
+  &lt;a href="#secao2"&gt;Seção 2&lt;/a&gt;
+&lt;/nav&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Estruturas de Tabela</h2>
+        <p>Organizam dados tabulares:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;table&gt;</code>:</strong> Cria uma tabela.
+            <pre><code>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Coluna 1&lt;/th&gt;
+    &lt;th&gt;Coluna 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Dado 1&lt;/td&gt;
+    &lt;td&gt;Dado 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>8. Formulários</h2>
+        <p>Permitem a coleta de dados do usuário:</p>
+        <ul>
+          <li>
+            <strong><code>&lt;form&gt;</code>:</strong> Define um formulário.
+            <pre><code>
+&lt;form action="/enviar" method="POST"&gt;
+  &lt;label for="nome"&gt;Nome:&lt;/label&gt;
+  &lt;input type="text" id="nome" name="nome"&gt;
+  &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+            </code></pre>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Principais Tags do HTML. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
